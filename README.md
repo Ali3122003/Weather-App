@@ -16,9 +16,35 @@ This app allows users to search for the weather of any city and displays informa
 - **Caching:** Nginx  
 - **Containerization:** Docker  
 
+## 🛠 **Installation**
+
+  **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-repo/weather-app.git
+   ```
+   ```sh
+   cd weather-app
+   # The application requires environment variables to function properly. Create a .env file and define the required variables.
+   vim .env
+   # in .env Add the following
+   DB_USER= ...
+   DB_PASSWORD= ...
+   DB_NAME= ...
+   APIKEY= ...
+   MYSQL_ROOT_PASSWORD= ...
+   MYSQL_DATABASE= ...
+   ```
+
 ## 🔧 **How to Run**
-1. **Install required dependencies** (Node.js, Docker)  
-2. **Run the application using Docker:**  
+ **Run the application using Docker-compose :**  
    ```sh
    docker-compose up -d
    ```
+
+## 🚀 **Overview**
+
+The **Weather App** is a simple web application that allows users to retrieve real-time weather information for any city. It fetches weather data from an external API and displays key details such as temperature, weather conditions, and location. 
+
+This project is designed for practicing **DevOps** concepts, including **API integration, and web application deployment**.
+
+---
