@@ -16,6 +16,14 @@ This app allows users to search for the weather of any city and displays informa
 - **Caching:** Nginx  
 - **Containerization:** Docker  
 
+## 📷 Application Screenshot
+
+To add a screenshot of the application, place the image in the repository and reference it as shown below:
+
+![Application Screenshot](photo_2.PNG)
+![Application Screenshot](photo_3.PNG)
+![Application Screenshot](photo_1.PNG)
+
 ## 🛠 **Installation**
 
   **Clone the repository:**
