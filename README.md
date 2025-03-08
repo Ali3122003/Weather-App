@@ -11,10 +11,11 @@ This app allows users to search for the weather of any city and displays informa
 
 ## 🛠 **Technologies Used**
 - **Frontend:** HTML, CSS, JavaScript, jQuery  
-- **Backend:** Node.js, Express  
-- **API:** OpenWeather API _ Rapid 
+- **Backend:** Node.js, Express
+- **Authentication Service:** Go  
+- **API:** Rapid_API OpenWeather
 - **Caching:** Nginx  
-- **Containerization:** Docker  
+- **Containerization:** Docker, Docker-Compose  
 
 ## 📷 Application Screenshot
 
