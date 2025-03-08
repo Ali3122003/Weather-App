@@ -48,7 +48,14 @@ To add a screenshot of the application, place the image in the repository and re
    ```sh
    docker-compose up -d
    ```
-
+ **Show the status**
+   ```sh
+   docker-compose ps
+   ``` 
+ **Bring the application down**
+   ```sh
+   docker-compose down
+   ``` 
 ## 🚀 **Overview**
 
 The **Weather App** is a simple web application that allows users to retrieve real-time weather information for any city. It fetches weather data from an external API and displays key details such as temperature, weather conditions, and location. 
