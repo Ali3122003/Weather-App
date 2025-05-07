@@ -1,0 +1,5 @@
+.env
+database
+weather-secret.yaml
+mysql-secret.yaml
+mysql-config.yaml
